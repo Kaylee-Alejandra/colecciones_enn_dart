@@ -1,6 +1,6 @@
 void main() {
   print("Kaylee Alejandra Luevano Molina mat: 22308051281248 gpo 6-J");
-  Map<int, String> instrumentos = {
+  Map<String, dynamic> instrumentos = {
     1: "codigo", 
     2: "tipo", 
     3: "color",
@@ -22,7 +22,7 @@ void main() {
     print("$value");
   }
 
-    Map<int, String> Empleados = {
+    Map<String, dynamic> Empleados = {
     1: "Id", 
     2: "nombre", 
     3: "direccion",
